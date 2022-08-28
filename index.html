@@ -11,38 +11,43 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <!--Header-->
     <header class="header">
-      <nav>
-        <a class="logo" href="index.html"><span class="web">Web</span>Studio</a>
+      <div class="container-flex-nav">
+        <nav>
+          <a class="logo" href="index.html"
+            ><span class="web">Web</span>Studio</a
+          >
 
-        <ul class="nav-list list">
-          <li><a href="./index.html" class="nav-link">Студія</a></li>
-          <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-          <li><a href="./contacts.html" class="nav-link">Контакти</a></li>
+          <ul class="nav-list list">
+            <li><a href="./index.html" class="nav-link">Студія</a></li>
+            <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+            <li><a href="./contacts.html" class="nav-link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-top list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact-link-top"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contact-link-top"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="contact-top list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link-top"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link-top"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <!--Main-->
     <main>
-      <!--Герой-->
+      <!--Hero-->
+
       <section class="bgd-main">
         <h1 class="hero-title">
           Ефективні рішення для<br />
@@ -161,9 +166,9 @@
     </main>
     <!--Footer-->
 
-    <footer class="footer">
+    <footer class="footer-section">
       <a class="logo" href="index.html"><span class="web">Web</span>Studio</a>
-      <address class="adress">
+      <adress class="adress">
         <ul class="contact-bot list">
           <li>
             <a
@@ -185,7 +190,7 @@
             >
           </li>
         </ul>
-      </address>
+      </adress>
     </footer>
   </body>
 </html>
